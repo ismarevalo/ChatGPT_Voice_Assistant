@@ -1,28 +1,35 @@
 # ChatGPT Voice Assistant
 
+![githubchatgpt](https://aibotverse.net/wp-content/uploads/2024/04/Default_Genera_una_imagen_hiperrealista_de_un_innovador_chatbo_3.jpg)
 
-![githubchatgpt](https://user-images.githubusercontent.com/110467001/224504814-cd3cd66c-a3d8-4b15-ad13-8368e754dd76.PNG)
+Este es un código en Python que usa ChatGPT, un gran modelo de lenguaje entrenado por OpenAI, como un modelo de asistente de voz.
 
-This is a python code that uses ChatGPT, a large language model trained by OpenAI, as a voice assistant.
-
-To use this code, you need to have Python 3.x and the following libraries installed:
+Para usar este cpodigo, usted debe tener igual o superior de Python 3.x y las siguientes librerias instaladas:
 
 - openai
 - pyaudio
 - SpeechRecognition
 - pyttsx3
 
-You can install the required libraries using pip:
+## Instalación de las librerias
 
-There are two python files the one finising in "es" is for spanish users because it translate the text to spanish instead of enlgish.
+Use el gestionador de paquetes [pip](https://pip.pypa.io/en/stable/) para instalar cada libreria. Ejemplo:
 
+```bash
+pip install openai
+```
 
-ChatGPT will then process your query or command and provide a response. The response will be both printed to the console and spoken out loud using text-to-speech technology.
+Encontrará dos archivos en Python y la que finaliza en "es" es para los usuarios en español que requieren traducción e interacción en español en lugar de inglés.
 
-This code uses the ChatGPT model from OpenAI and the following libraries:
+ChatGPT luego procesará su consulta o comando y proporcionará una respuesta. La respuesta se imprimirá tanto en la consola como se hablará en voz alta usando tecnología de texto a voz.
 
-- openai - Openai provides the ChatGPT model for the responses.
-- pyaudio - PyAudio provides Python bindings for the PortAudio library, which is used for audio input and output.
-- SpeechRecognition - The SpeechRecognition library provides support for performing speech recognition on audio input using Google's speech recognition technology.
-- pyttsx3 - pyttsx3 is a text-to-speech conversion library in Python.
+Este código usa el modelo ChatGPT de OpenAI y las siguientes librerias:
 
+- openai - OpenAI proporciona el modelo ChatGPT para las respuestas.
+- pyaudio - PyAudio proporciona enlaces de Python para la biblioteca PortAudio, que se utiliza para la entrada y salida de audio.
+- SpeechRecognition - La biblioteca SpeechRecognition brinda soporte para realizar reconocimiento de voz en la entrada de audio utilizando la tecnología de reconocimiento de voz de Google.
+- pyttsx3 - pyttsx3 es una biblioteca de conversión de texto a voz en Python.
+
+```bash
+Desarrollado por: Ismael Arévalo González, https://aibotverse.net
+```
